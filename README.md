@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple application to measure how happy your organization is based off the emoticons in your Slack.
 
-Things you may want to cover:
+See which channel, and who is happy or sad each day.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Created by Jace Patel & Chris Illuk - more to come
