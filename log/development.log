@@ -175,3 +175,80 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 289ms (Views: 287.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/sign_in" for 172.17.0.1 at 2016-08-10 03:19:35 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.slim (29.4ms)
+  Rendered layouts/_messages.html.slim (2.7ms)
+Completed 200 OK in 316ms (Views: 304.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 172.17.0.1 at 2016-08-10 03:19:38 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.4ms)
+  Rendered layouts/_navigation.html.slim (17.1ms)
+  Rendered layouts/_messages.html.slim (2.5ms)
+Completed 200 OK in 299ms (Views: 286.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.17.0.1 at 2016-08-10 03:20:33 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.slim (16.7ms)
+  Rendered layouts/_messages.html.slim (2.7ms)
+Completed 200 OK in 311ms (Views: 280.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.17.0.1 at 2016-08-10 03:20:34 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.5ms)
+  Rendered layouts/_navigation.html.slim (16.3ms)
+  Rendered layouts/_messages.html.slim (3.0ms)
+Completed 200 OK in 363ms (Views: 330.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.17.0.1 at 2016-08-10 03:22:03 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.slim (16.5ms)
+  Rendered layouts/_messages.html.slim (2.6ms)
+Completed 200 OK in 287ms (Views: 273.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.17.0.1 at 2016-08-10 03:22:28 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.slim (17.3ms)
+  Rendered layouts/_messages.html.slim (2.4ms)
+Completed 200 OK in 274ms (Views: 263.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.17.0.1 at 2016-08-10 03:22:48 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  Rendered visitors/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation_links.html.erb (0.3ms)
+  Rendered layouts/_navigation.html.slim (19.6ms)
+  Rendered layouts/_messages.html.slim (2.8ms)
+Completed 200 OK in 330ms (Views: 316.9ms | ActiveRecord: 0.0ms)
+
+
