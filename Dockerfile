@@ -1,5 +1,5 @@
-FROM ruby:2.2 
-MAINTAINER jace.patel@gmail.com
+FROM ruby:2.3.1 
+MAINTAINER iconnor@projectlounge.com
 
 # Install apt based dependencies required to run Rails as 
 # well as RubyGems. As the Ruby image itself is based on a 

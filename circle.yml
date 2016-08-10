@@ -1,0 +1,12 @@
+machine:
+  ruby:
+    version: 2.3.1
+test:
+  pre:
+    - bundle exec rubocop --fail-fast --fail-level error --format json --out $CIRCLE_ARTIFACTS/rubocop.json
+experimental:
+  notify:
+    branches:
+      only:
+        - master
+        - production
