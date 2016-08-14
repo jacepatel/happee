@@ -18,7 +18,7 @@
    "is_admin":false,
    "is_owner":false,
    "time_zone":"Australia/Brisbane"},
- "credentials":{"token":"xoxp-67470516934-67479829381-69262584837-d0ffefb98b", "expires":false},
+ "credentials":{"token":"hello", "expires":false},
  "extra":
   {"raw_info":{"ok":true, "url":"https://projectlounge.slack.com/", "team":"ProjectLounge", "user":"jacepatel", "team_id":"T1ZDUF6TG", "user_id":"U1ZE3QDB7"},
    "web_hook_info":{},
