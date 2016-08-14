@@ -1,9 +1,18 @@
 class User < ApplicationRecord
+  has_many :teams
   enum role: [:user, :vip, :admin]
   after_initialize :set_default_role, :if => :new_record?
 
   def set_default_role
     self.role ||= :user
+  end
+
+  def self.new_with_session(params, session)
+    super.tap do |user|
+      if data = session["devise.facebook_data"] && session["devise.facebook_data"]["extra"]["raw_info"]
+        user.email = data["email"] if user.email.blank?
+      end
+    end
   end
 
   def self.from_omniauth(auth)
@@ -18,5 +27,5 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable,
-         :omniauthable, :omniauth_providers => [:facebook]
+         :omniauthable, :omniauth_providers => [:slack]
 end

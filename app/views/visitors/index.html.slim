@@ -1,0 +1,10 @@
+.container
+  .container-fluid
+    .row
+      .col-sm-12
+        h1  Happee
+        p An app which measures yourf slack channel happiness!</p>
+        / - if current_user?
+        span  ehhh you're a user
+        / - else
+        = link_to "Sign in with Facebook", user_slack_omniauth_authorize_path

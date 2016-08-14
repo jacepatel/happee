@@ -247,7 +247,8 @@ Devise.setup do |config|
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
-  config.omniauth :slack, ENV['SLACK_OAUTH_ID'], ENV['SLACK_OAUTH_SECRET'], callback_url: ENV['SLACK_CALLBACK_URL']
+  config.omniauth :slack, ENV['SLACK_OAUTH_ID'], ENV['SLACK_OAUTH_SECRET'], scope: 'identity.basic', name: :sign_in_with_slack
+  config.omniauth :slack, ENV['SLACK_OAUTH_ID'], ENV['SLACK_OAUTH_SECRET'], scope: 'team:read,users:read,identify,bot,channels:history,channels:read,emoji:read'
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
