@@ -3,6 +3,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     # We have received a response from the omniauth callback - commence user and team creation
     response = request.env["omniauth.auth"]
     @user = User.from_omniauth(response)
+    binding.pry
     team = Team.create_or_update_from_slack(response)
     user.teams << team
     binding.pry

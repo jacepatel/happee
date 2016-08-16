@@ -22,7 +22,7 @@
  "extra":
   {"raw_info":{"ok":true, "url":"https://projectlounge.slack.com/", "team":"ProjectLounge", "user":"jacepatel", "team_id":"T1ZDUF6TG", "user_id":"U1ZE3QDB7"},
    "web_hook_info":{},
-   "bot_info":{"bot_user_id":"U217GRV0W", "bot_access_token":"xoxb-69254879030-CxyIXF4wjlYh6G9kEUF8RpuH"},
+   "bot_info":{"bot_user_id":"U217GRV0W", "bot_access_token":""},
    "user_info":
     {"ok":true,
      "user":
